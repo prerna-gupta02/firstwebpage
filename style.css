@@ -1,0 +1,80 @@
+body{
+    background-image: url("img.jfif");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.div1{
+    border: 1px solid white;
+    border-radius: 5%;
+    width: 200px;
+    height: 90px;
+    color: cornsilk;
+    text-align: center;
+    font-size: 70px;
+    margin: 100px 300px;
+}
+.content{
+    color: cornsilk;
+    text-align: center;
+    line-height: 5px;
+}
+.content h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.content h3{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.login button{
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 40px;
+    color: teal;
+    opacity: 0.9;
+    width: 200px;
+    box-shadow:4px 4px thistle;
+    background-color: white;
+    padding: 5px;
+}
+button:active{
+    box-shadow: none;
+    transform: translateY(4px);
+}
+button:hover{
+    opacity:1;
+}
+.login{
+    text-align:center;
+    color: white;
+}
+ul{
+    list-style: none;
+    color: white;
+}
+.contact{
+    margin-top:80px;
+}
+li{
+    float: right;
+    padding: 20px;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+li a:hover{
+    opacity:1;
+}
+a:visited{
+    color: yellowgreen;
+}
